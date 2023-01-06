@@ -150,20 +150,24 @@ main {
 .sidebar {
   width: 230px;
 }
+
 .common-heading {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
 }
+
 .sidebar-contents {
   padding: 50px 0;
 }
+
 .popular-text,
 .categories-text {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
 }
+
 .popular-text:last-child,
 .categories-text:last-child {
   margin: 0;
@@ -215,4 +219,89 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+  width: 100%;
+  padding: 15px 0 0 0;
+  }
+
+  .social i {
+    display: none;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-box {
+    padding-top: 20px;
+  }
+
+  .blog-image {
+    width: 50vw;
+    margin: 5px;
+  }
+
+  .blog-item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .blog-text {
+    padding: 20px 15px 0 10px;
+    font-size: 110%;
+  }
+
+  .blog-date {
+    font-size: 110%;
+  }
+
+  .pagination {
+    padding-top: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .common-heading {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .sidebar-contents {
+    padding: 3%;
+  }
+
+  .common-heading {
+   padding-top: 30px;
+   margin-bottom: 30px;
+   border-bottom: 8px solid #f7f7f7;
+   text-align: center;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 50%;
+  }
 }
