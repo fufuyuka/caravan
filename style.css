@@ -304,4 +304,8 @@ footer {
     width: 48%;
     padding-top: 50%;
   }
+
+  footer {
+    font-size: 80%;
+  }
 }
